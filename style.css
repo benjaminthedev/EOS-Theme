@@ -1,0 +1,65 @@
+/*
+
+Theme Name: Impreza
+
+Description: Multi-Purpose Creative WordPress Theme.
+
+Version: 4.4.1
+
+Author:	UpSolution
+
+Theme URI: http://impreza.us-themes.com/
+
+Author URI: http://us-themes.com/
+
+License: Themeforest Split Licence
+
+License URI: -
+
+Text Domain: us
+
+Domain Path: /languages
+
+*/
+
+.our-films-right {  
+
+    max-width: 173px !important;    
+
+}
+
+.tribe-events-list-event-title span, .gm-style-iw a span {
+	display: none !Important	
+}
+
+
+@media screen and (max-width: 1183px){
+    .i-pad-col-100 > div {
+        width: 100%;
+        margin: 0 auto 20px !important;
+        float: none;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .tribe-events-loop .tribe-events-event-meta {
+        background: transparent !important;
+        border: none !important;
+        margin-top: 12px;
+        padding: 0 !important;
+    }
+    .tribe-events-list .tribe-events-venue-details {
+        border-top: none !important;
+        margin-top: 12px;
+        padding: 8px 12px 0;
+    }
+}
+
+
+
+
+/*-- This fixes the widget 7 issue Simon was facing during widget update on product pages --*/
+
+div#text-7 {
+    display: none !important;
+}
